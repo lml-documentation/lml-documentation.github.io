@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    padding: 30px 0 0;
+    margin-bottom: 50px;
+}
+
+.header-logo {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.header-logo a {
+    color: #000000;
+}
+
+.header-nav {
+    padding: 15px 0;
+    border-top: 2px solid rgba(0,0,0,0.1);
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+}
+.header-nav .header-nav-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+.header-nav-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.header-nav-list li {
+    margin: 0 30px 0 0;
+}
+.header-nav-list li:last-of-type {
+    margin: 0;
+}
+
+/* Docs */
+.docs {
+    margin-bottom: 120px;
+}
+.docs-list {
+    padding-left: 30px;
+}
+.doc {
+    margin: 0 0 15px;
+}
+
+/* Developers */
+
+.developers {}
+.developers-title {
+}
+.developers-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.developer {
+    width: 200px;
+    text-align: center;
+}
+.developer-image {
+    margin: 0 auto 15px;
+    background: #000;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.developer-name {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
