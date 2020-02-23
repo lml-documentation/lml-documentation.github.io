@@ -9,11 +9,23 @@ const docsList = [
         title: 'REQUIREMENTS.docx',
         link: '/docs/REQUIREMENTS.docx'
     },
+    {
+        title: 'Time Log',
+        link: 'https://docs.google.com/spreadsheets/d/1cHifL_P5H0AgzMSFhCGFmf8viELiYQGyUncSvkha6pc/edit?usp=sharing'
+    },
+    {
+        title: 'Diary',
+        link: 'https://docs.google.com/spreadsheets/d/1I5HXig65wJlK1K8PbkT5RKJOwaExf5gDCUZlLxlA8Vw/edit?usp=sharing'
+    },
+    {
+        title: 'Marks',
+        link: 'https://docs.google.com/spreadsheets/d/1Y1dC22YC3uwk_8uPd2VcIyFUag6Wh3JXdmI9oLZCcZU/edit?usp=sharing'
+    },
 ];
 
 const Doc = ({ data: { title, link } }) => (
     <div className="doc">
-        <Link href={link}><a>{title}</a></Link>
+        <Link href={link}><a target="_blank">{title}</a></Link>
     </div>
 );
 
