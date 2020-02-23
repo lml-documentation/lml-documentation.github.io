@@ -21,6 +21,10 @@ const docsList = [
         title: 'Marks',
         link: 'https://docs.google.com/spreadsheets/d/1Y1dC22YC3uwk_8uPd2VcIyFUag6Wh3JXdmI9oLZCcZU/edit?usp=sharing'
     },
+    {
+        title: 'Assessment Criteria',
+        link: 'https://docs.google.com/document/d/1HcxMClwVgkiENvhIuFSQKsW-Yxw-bxtFyl5Xtb-aUro/edit?usp=sharing'
+    },
 ];
 
 const Doc = ({ data: { title, link } }) => (
