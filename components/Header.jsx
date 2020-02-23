@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 const HeaderLogo = () => (
     <div className="header-logo">
+        <img src="logo.png" alt="logo" />
         <Link href="/">
             <a>LML - DOCUMENTATION</a>
         </Link>
