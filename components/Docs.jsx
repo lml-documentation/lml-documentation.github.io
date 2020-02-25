@@ -3,11 +3,11 @@ import Link from "next/link";
 const docsList = [
     {
         title: 'PROJECT_PROPOSAL.docx',
-        link: '/docs/PROJECT_PROPOSAL.docx'
+        link: 'https://docs.google.com/document/d/13Z3QrJnA0nIhGTvRGue-pMXXw6Z9Tx0jXYhen89Tdyo/edit?usp=sharing'
     },
     {
         title: 'REQUIREMENTS.docx',
-        link: '/docs/REQUIREMENTS.docx'
+        link: 'https://docs.google.com/document/d/1FMrpzXLysBIY7MgRE39SguvX1DyYUzK-R6lsYxSFjjE/edit?usp=sharing'
     },
     {
         title: 'Time Log',
