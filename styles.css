@@ -17,6 +17,10 @@ a {
     margin: 0 auto;
 }
 
+.home {
+    padding-bottom: 30px;
+}
+
 /* Header */
 
 .header {
@@ -32,8 +36,8 @@ a {
 }
 
 .header-logo img {
-    margin: 0 auto;
-    max-width: 320px;
+    margin: 0 auto 50px;
+    max-width: 280px;
     display: block;
 }
 
@@ -93,6 +97,9 @@ a {
 .developer-image {
     margin: 0 auto 15px;
     background: #000;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     width: 160px;
     height: 160px;
     border-radius: 50%;

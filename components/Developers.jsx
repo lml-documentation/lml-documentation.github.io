@@ -1,31 +1,29 @@
 const developersList = [
     {
-        image: '',
-        name: 'Name'
+        imageUrl: 'photo01.jpg',
+        name: 'Ekaterina Zarudnaya'
     },
     {
-        image: '',
-        name: 'Name'
+        imageUrl: 'photo02.jpg',
+        name: 'Denys Hura'
     },
     {
-        image: '',
-        name: 'Name'
+        imageUrl: 'photo03.jpg',
+        name: 'Basov Maksym'
     },
     {
-        image: '',
-        name: 'Name'
+        imageUrl: 'photo04.jpg',
+        name: 'Bohdan Hlovatskyi'
     },
     {
-        image: '',
-        name: 'Name'
+        imageUrl: 'photo05.jpg',
+        name: 'Vladislav Godunov'
     },
 ];
 
-const Developer = ({ data: { image, name } }) => (
+const Developer = ({ data: { imageUrl, name } }) => (
     <div className="developer">
-        <div className="developer-image">
-            <img src={image} alt="" />
-        </div>
+        <div className="developer-image" style={{ backgroundImage: `url(${imageUrl})` }}></div>
         <div className="developer-content">
             <div className="developer-name">
                 {name}
@@ -40,7 +38,7 @@ const Developers = () => (
             Developers
         </h2>
         <div className="developers-list">
-            {developersList.map(developer => <Developer key={developer.name} data={developer} />)}
+            {developersList.map((developer, i) => <Developer key={`developer${i}`} data={developer} />)}
         </div>
     </section>
 );

@@ -29,7 +29,7 @@ const docsList = [
 
 const Doc = ({ data: { title, link } }) => (
     <div className="doc">
-        <Link href={link}><a target="_blank">{title}</a></Link>
+        <a href={link} target="_blank">{title}</a>
     </div>
 );
 
