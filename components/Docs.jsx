@@ -25,6 +25,10 @@ const docsList = [
         title: 'Assessment Criteria',
         link: 'https://docs.google.com/document/d/1HcxMClwVgkiENvhIuFSQKsW-Yxw-bxtFyl5Xtb-aUro/edit?usp=sharing'
     },
+    {
+        title: 'UML Use Case',
+        link: 'https://drive.google.com/file/d/1csonYhBvyz8ossSvjPJwmLzsTbSFD2sa/view?usp=sharing'
+    },
 ];
 
 const Doc = ({ data: { title, link } }) => (
