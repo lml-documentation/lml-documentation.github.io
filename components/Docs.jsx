@@ -29,6 +29,14 @@ const docsList = [
         title: 'UML Use Case',
         link: 'https://drive.google.com/file/d/1csonYhBvyz8ossSvjPJwmLzsTbSFD2sa/view?usp=sharing'
     },
+    {
+        title: 'Design',
+        link: 'https://drive.google.com/drive/folders/1bi2OUNKML5ufAbJNPGnHX11bV643GHaU?usp=sharing'
+    },
+    {
+        title: 'Documentation Part 1',
+        link: 'https://drive.google.com/file/d/1iw6dfaam29nkuoxh6Z4zUKTU5MVS7DKj/view?usp=sharing'
+    },
 ];
 
 const Doc = ({ data: { title, link } }) => (
