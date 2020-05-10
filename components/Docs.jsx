@@ -37,6 +37,10 @@ const docsList = [
         title: 'Documentation Part 1',
         link: 'https://drive.google.com/file/d/1iw6dfaam29nkuoxh6Z4zUKTU5MVS7DKj/view?usp=sharing'
     },
+    {
+        title: 'Presentation: Software Testing',
+        link: 'https://youtu.be/LnXfyh4cKv0'
+    },
 ];
 
 const Doc = ({ data: { title, link } }) => (
