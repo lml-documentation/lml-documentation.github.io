@@ -41,6 +41,14 @@ const docsList = [
         title: 'Presentation: Software Testing',
         link: 'https://youtu.be/LnXfyh4cKv0'
     },
+    {
+        title: 'Final Presentation LML: Live Music Library',
+        link: 'https://youtu.be/PiE9F9ThPrY'
+    },
+    {
+        title: 'Final Documentation',
+        link: 'https://drive.google.com/file/d/1COM9hjEbYvKF4NtxpHZEbVBL2xDWm5Hz/view?usp=sharing'
+    },
 ];
 
 const Doc = ({ data: { title, link } }) => (
